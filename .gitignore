@@ -1,12 +1,25 @@
-venv/
-**pycache**/
+# Python
+__pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-data/
+# Virtual Environment
+venv/
+.env
 
-models/*.pkl
-
+# Jupyter
 .ipynb_checkpoints/
 
-.DS_Store
+# VS Code
+.vscode/
 
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Model Cache
+*.log
+
+# Dataset
+data/creditcard.csv

@@ -184,3 +184,5 @@ with open("models/fraud_model.pkl", "wb") as file:
     pickle.dump(xgb_model, file)
 
 print("\nModel Saved Successfully")
+
+
