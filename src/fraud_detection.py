@@ -22,7 +22,7 @@ from xgboost import (
 # Load Dataset
 # ==========================
 
-df = pd.read_csv("data/creditcard.csv")
+pd.read_csv("data/creditcard_sample.csv")
 
 # ==========================
 # Dataset Information

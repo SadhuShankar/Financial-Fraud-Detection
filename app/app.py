@@ -82,7 +82,7 @@ def kpi_card(title, value, color):
 @st.cache_data
 def load_data():
 
-    return pd.read_csv("data/creditcard.csv")
+    return pd.read_csv("data/creditcard_sample.csv")
 
 df = load_data()
 
